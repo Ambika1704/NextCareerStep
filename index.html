@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Career Advisor | Smart Recommendations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🚀 AI Career Recommendation System</h1>
+      <p class="subtitle">Personalized career guidance powered by Machine Learning & AI</p>
+    </header>
+
+    <main>
+      <section class="recommender">
+        <div class="form-box">
+          <textarea id="skills" placeholder="Enter your skills, interests, or tools you know (e.g., Python, Tableau, SQL, Problem Solving...)"></textarea>
+          <button id="recommendBtn">
+            <span>Get Recommendations</span>
+          </button>
+        </div>
+
+        <div id="results" class="results-box">
+          <!-- Recommendations will appear here -->
+        </div>
+      </section>
+
+      <section class="ai-section">
+        <h2>💬 Ask our AI Career Assistant</h2>
+        <p class="subtitle">Not sure where to start? Have a specific question? Chat with our AI advisor.</p>
+        
+        <div class="chat-box">
+          <div id="chatMessages">
+            <div class="message ai-message">
+              Hello! I'm your AI Career Advisor. Tell me about your background or ask me anything about the job market!
+            </div>
+          </div>
+          <div class="chat-input-area">
+            <input type="text" id="chatInput" placeholder="Ask about specific roles, salaries, or upskilling..." autocomplete="off">
+            <button id="sendChatBtn">Send</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
