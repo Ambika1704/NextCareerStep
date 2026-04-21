@@ -1,30 +1,30 @@
-# 🚀 AI-Based Career Recommendation System
+# AI-Based Career Recommendation System
 
 A intelligent career guidance platform that combines **Machine Learning** for skill-matching and **Generative AI** for personalized mentorship. This system helps users identify the best career paths based on their current skill set and provides a dedicated AI Assistant to answer detailed industry questions.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🔍 Smart Recommendation Engine
+### Smart Recommendation Engine
 - **TF-IDF Analysis**: Uses Natural Language Processing to analyze your skills.
 - **Cosine Similarity**: Matches your profile against a curated dataset of industry roles.
 - **Top 3 Predictions**: Provides the best career matches with percentage-based confidence scores.
 - **Upskilling Paths**: Specifically identifies what you need to learn to land each role.
 
-### 💬 AI Career Advisor (Powered by Gemini)
+### AI Career Advisor (Powered by Gemini)
 - **Natural Conversations**: Chat with a professional career consultant.
 - **Context-Aware**: The assistant remembers your previous questions to provide tailored advice.
 - **Actionable Guidance**: Get specific learning resources, interview tips, and salary insights.
 
-### 🎨 Premium UI/UX
+### User Interface and Experience
 - **Dark Mode Aesthetic**: A modern, sleek interface built for focus and clarity.
 - **Responsive Design**: Works perfectly across all devices.
 - **Micro-animations**: Smooth loading states and transitions for a premium feel.
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Frontend**: HTML5, Vanilla CSS, JavaScript (ES6+)
 - **Backend**: Flask (Python)
@@ -34,7 +34,7 @@ A intelligent career guidance platform that combines **Machine Learning** for sk
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.8+
@@ -75,7 +75,7 @@ A intelligent career guidance platform that combines **Machine Learning** for sk
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 - `app.py`: Flask backend with ML logic and AI API integration.
 - `index.html`: Main frontend entry point.
@@ -85,10 +85,10 @@ A intelligent career guidance platform that combines **Machine Learning** for sk
 
 ---
 
-## 🤝 Contributing
+## Contributing
 Contributions are welcome! If you have suggestions for new features or improvements, feel free to open an issue or submit a pull request.
 
-## 📄 License
+## License
 This project is licensed under the MIT License - see the `LICENSE` file for details.
 
 ---
